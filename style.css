@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'grafite';
+    src: url(Grafite.otf) format(opentype);
+}
+
+*{
+
+     color: white;
+}
+
+body{
+     background-image: url(imagens/img_purple.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;   
+     font-family: "Oswald", sans-serif;
+    }
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.painel{
+    background-color: transparent;
+    border: 2px solid rgba(17, 17, 17, 0.514);
+    border-radius: 10px;
+    padding: 0px 15px 30px 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    backdrop-filter: blur(50px);
+}
+
+
+.Login{
+    font-size: 30px;
+    text-align: center;
+    font-family:"DM Serif Text", serif;
+}
+
+
+.usuario{
+    background-color: transparent;
+    padding: 10px 150px 10px 15px;
+    margin: 10px ;
+    border: 1px solid rgba(182, 176, 185, 0.425);
+    border-radius: 2cm;
+    outline: none;
+    
+
+}
+.usuario:active{
+    background-color: rgba(179, 165, 165, 0.356);
+    transition-duration: 5s;
+}
+.usuario:hover{
+    background-color: rgba(255, 255, 255, 0.1);    
+}
+
+.usuario::placeholder{
+    color: rgba(247, 246, 246, 0.747);  
+}
+
+.menu{
+    padding: 0px 30px 0 05px;
+    text-decoration: none;
+    bottom: unset;
+    font-size: 17px;
+    margin: 10px 15px 0 0;
+}
+
+
+
+
+.B a:hover{
+    text-decoration: underline;
+
+}
+
+.Botao{
+    padding: 17px 0 5px 17px;
+
+
+}
+
+
+.Botao>a>input{
+    width: 8cm;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(182, 176, 185, 0.425);
+}
+
+.Botao>a>input:hover{
+    background-color: transparent;
+    color: white;
+    transition-duration: 360ms;
+    transition-delay: 30ms;
+}
+.cadastrar{
+    text-align: center;
+    text-decoration: none;
+}
+.cadastrar a {
+    text-decoration: none;
+}
+.cadastrar a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
